@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>E:\Suryamba_Bag_New\BAG-3\PallavaGroupWeighing.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2021-11-01T12:10:25</ChangeDate>
+		<ChangeDate>2021-11-01T12:21:42</ChangeDate>
 		<Library>
 			<Name>ModbusRTU.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\ModbusRTU.lib</Path>
@@ -20254,39 +20254,6 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10096E53" Crc32="4275783007" LastChange="2021-11-01T12:10:25">CONE_TILTING_PISTON</Name>
-			<PrgInfo>
-				<CodeIndex>1172</CodeIndex>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.step</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.sMessage_23_Tilting</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.bATiltPistonInHome</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.bRTiltPistonReset</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.bATiltingCount</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.LastConeTilt</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.Tilting</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.bITiltingMiddle</Name>
-				</Symbol>
-				<Symbol>
-					<Name>CONE_TILTING_PISTON.bDummyTilt</Name>
-				</Symbol>
-			</PrgInfo>
-		</Program>
-		<Program>
 			<Name Decoration="10041413" Crc32="1337701713" LastChange="2021-11-01T12:10:25">CONE_TILTING_PISTON_B3</Name>
 			<PrgInfo>
 				<CodeIndex>1173</CodeIndex>
@@ -20944,7 +20911,7 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="1014AC60" Crc32="4000499186" LastChange="2021-11-01T12:10:25">PISTON_ERRORS</Name>
+			<Name Decoration="1014AC60" Crc32="1538683764" LastChange="2021-11-01T12:21:41">PISTON_ERRORS</Name>
 			<PrgInfo>
 				<CodeIndex>1188</CodeIndex>
 				<Symbol>
@@ -22737,6 +22704,39 @@
 				<CodeIndex>1280</CodeIndex>
 			</PrgInfo>
 		</Program>
+		<Program>
+			<Name Decoration="10096E53" Crc32="4275783007" LastChange="2021-11-01T12:21:42">CONE_TILTING_PISTON</Name>
+			<PrgInfo>
+				<CodeIndex>1172</CodeIndex>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.step</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.sMessage_23_Tilting</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.bATiltPistonInHome</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.bRTiltPistonReset</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.bATiltingCount</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.LastConeTilt</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.Tilting</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.bITiltingMiddle</Name>
+				</Symbol>
+				<Symbol>
+					<Name>CONE_TILTING_PISTON.bDummyTilt</Name>
+				</Symbol>
+			</PrgInfo>
+		</Program>
 	</Programs>
 	<Symbols>
 		<Symbol>
@@ -23826,69 +23826,6 @@
 			<IGroup>16448</IGroup>
 			<IOffset>4960</IOffset>
 			<BitSize>16</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.step</Name>
-			<Type>INT</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>4962</IOffset>
-			<BitSize>16</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.sMessage_23_Tilting</Name>
-			<Type Decoration="40000051">STRING(80)</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>4964</IOffset>
-			<BitSize>648</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.bATiltPistonInHome</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>4951</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.bRTiltPistonReset</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>5045</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.bATiltingCount</Name>
-			<Type>INT</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>5046</IOffset>
-			<BitSize>16</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.LastConeTilt</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>5048</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.Tilting</Name>
-			<Type>INT</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>5050</IOffset>
-			<BitSize>16</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name Static="Input">CONE_TILTING_PISTON.bITiltingMiddle</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Changeable">384</IOffset>
-			<BitSize>1</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>CONE_TILTING_PISTON.bDummyTilt</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>5049</IOffset>
-			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">DATAERRORLOG_REPORT.FB_FileOpen_Indo</Name>
@@ -27998,6 +27935,69 @@
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name>CONE_TILTING_PISTON.step</Name>
+			<Type>INT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>4962</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.sMessage_23_Tilting</Name>
+			<Type Decoration="40000051">STRING(80)</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>4964</IOffset>
+			<BitSize>648</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.bATiltPistonInHome</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>4951</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.bRTiltPistonReset</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>5045</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.bATiltingCount</Name>
+			<Type>INT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>5046</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.LastConeTilt</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>5048</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.Tilting</Name>
+			<Type>INT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>5050</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input">CONE_TILTING_PISTON.bITiltingMiddle</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Changeable">384</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>CONE_TILTING_PISTON.bDummyTilt</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>5049</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1" TaskPrio="1">.MAX_TELEGRAM_IDX</Name>
 			<Type>INT</Type>
 			<Comment>
@@ -31073,7 +31073,7 @@
 			<BitSize>648</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">.RS_Error_8</Name>
+			<Name>.RS_Error_8</Name>
 			<Type Decoration="1009C27D">RS_ERRORS</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>30360</IOffset>
@@ -31087,14 +31087,14 @@
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="3">.HMITopPiston</Name>
+			<Name TaskPrio="2">.HMITopPiston</Name>
 			<Type Decoration="40000051">STRING(80)</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>30560</IOffset>
 			<BitSize>648</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">.RS_Error_9</Name>
+			<Name>.RS_Error_9</Name>
 			<Type Decoration="1009C27D">RS_ERRORS</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>30644</IOffset>
@@ -31108,7 +31108,7 @@
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="3">.HMIBottomPiston</Name>
+			<Name TaskPrio="2">.HMIBottomPiston</Name>
 			<Type Decoration="40000051">STRING(80)</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>30844</IOffset>
@@ -38922,7 +38922,7 @@
 			</Properties>
 		</Symbol>
 		<Symbol>
-			<Name Static="Input" TaskPrio="3">.bISealingTopPistonEnd</Name>
+			<Name Static="Input" TaskPrio="2">.bISealingTopPistonEnd</Name>
 			<Type>BOOL</Type>
 			<Comment>
 				<![CDATA[IS8]]>
@@ -38994,7 +38994,7 @@
 			</Properties>
 		</Symbol>
 		<Symbol>
-			<Name Static="Input" TaskPrio="3">.bISealingBottomPistonEnd</Name>
+			<Name Static="Input" TaskPrio="2">.bISealingBottomPistonEnd</Name>
 			<Type>BOOL</Type>
 			<Comment>
 				<![CDATA[IS12]]>
